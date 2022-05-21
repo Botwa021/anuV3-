@@ -1,5 +1,5 @@
-![20220226_031131.jpg](https://user-images.githubusercontent.com/92458761/155840670-848b1313-1257-428b-87b3-0d35891e4dff.jpg)
-<h1 align="center">Allo mypren!👋, I'm Krizyn</h1>
+![20220226_031131.jpg](https://telegra.ph/file/dec9f3e798ac4b07ef41d.jpg)
+<h1 align="center">Let me introduce myself, I am, Mursid</h1>I'm from Yogyakarta </h1>
 
 ## ```FOLLOW SOSIAL MEDIA ME```
 <p align="center">
@@ -22,7 +22,7 @@
 
   ## Whatsapp Saya
   Tanya tanya Dengan saya boleh sv juga
-* [`wassapp`](https://wa.me/6288233832771?text=Assalamualaikum+Mursid><)
+* [`WHATSAPP`](https://wa.me/6288233832771?text=Assalamualaikum+Mursid><)
 
 ---------
 

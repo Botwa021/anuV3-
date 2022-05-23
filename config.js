@@ -1,4 +1,4 @@
-// Bismillahirrahmanirrahim
+// Bismillahirrahmanirrahi Terima kasih banyak kepada
 // thank you to ALLAH Swt
 // thank you to Nurutomo as wabot-aq
 // thank you to ariffb as stikerinbot
@@ -8,74 +8,69 @@
 // thank you to zerochanBot
 // thank you to fernazer
 // thank you to MikeBot Dev Team
+// thank you to Mursid
+// thank you to BOTCAHX
+// thank you to Krizyn
+// thank you to AlyaaXd
+// thank you to aniq
+// thank you to Amirul Developer/Amirul Dev
+// thank you to Syahrul/LevBot
+// thank you to RaselComel
 // thank you to ALL Bot creator
 // and thanks you to who support my Bot
 
-gc1 = 'https://instagram.com/mhdfakri_'
-gc2 = 'https://www.youtube.com/c/HokenBeusz'
-gc3 = 'https://vt.tiktok.com/ZSeCJHbfA/'
-global.linkGC = ['https://chat.whatsapp.com/KTUF5TbtlWu4vOFnlDqCwg', ''] // ganti jadi group lu
-global.owner = ['62895328590064','62895327934887'] // Put your number here //owner eval
-global.kontak = ['62895328590064','62895327934887'] //Ketika ada yang ngetik #owner
+gc1 = 'https://chat.whatsapp.com/LPFQ2X1cnihB0fb8F8cZau'
+gc2 = 'https://chat.whatsapp.com/HjRHck1G3WRHOx97fJkdMN'
+gc3 = 'https://chat.whatsapp.com/HcGcIB09sIvKrGytO8yfFn'
+global.linkGC = ['https://chat.whatsapp.com/LPFQ2X1cnihB0fb8F8cZau', ''] // ganti jadi group lu
+global.owner = ['6289612698583','6288233832771'] // Put your number here //owner eval
+global.kontak = ['6289612698583','6288233832771'] //Ketika ada yang ngetik #owner
 global.mods = ['0'] // Want some help?
-global.prems = ['62895328590064','62895327934887'] // Premium user has unlimited limit
+global.prems = ['+1 (775) 403-5736','6289505165400','6282287750102'] // Premium user has unlimited limit
 global.APIs = { // API Prefix
-  // nama: 'https://website'
-  hardianto: 'https://hardianto-chan.herokuapp.com',
+  // name: 'https://website'
+  nrtm: 'https://nurutomo.herokuapp.com', 
   rey: 'https://server-api-rey.herokuapp.com',
-  jonaz: 'https://jonaz-api-v2.herokuapp.com',
-  neoxr: 'https://neoxr-api.herokuapp.com',
-  nrtm: 'https://nurutomo.herokuapp.com',
-  pencarikode: 'https://pencarikode.xyz',
   xteam: 'https://api.xteam.xyz',
   zahir: 'https://zahirr-web.herokuapp.com',
-  zekais: 'http://zekais-api.herokuapp.com',
-  zeks: 'https://api.zeks.xyz',
-  vhtear: 'https://api.vhtear.com',
-  lolhum: 'https://api.lolhuman.xyz',
-  fxc7: 'https://fxc7-api.herokuapp.com',
-  bx: 'https://bx-hunter.herokuapp.com',
-
+  lol: 'https://api.lolhuman.xyz',
+  dhnjing: 'https://dhnjing.xyz',
+  zeks: 'https://api.zeks.me',
+  pencarikode: 'https://pencarikode.xyz',
+  LeysCoder: 'https://leyscoders-api.herokuapp.com'
 }
-global.APIKeys = { // APIKey nya disini
-  // 'https://website': 'apikey'
+global.APIKeys = { // APIKey Here
+  // 'https://website': 'apikey' (apikey kalian)
   'https://server-api-rey.herokuapp.com': 'apirey',
-  'https://hardianto-chan.herokuapp.com': 'hardianto',
-  'https://neoxr-api.herokuapp.com': 'yntkts',
-  'https://pencarikode.xyz': 'APIKEY',
-  'https://api.xteam.xyz': 'HIRO',
+  'https://api.xteam.xyz': 'Dawnfrostkey',
+  'https://api.lolhuman.xyz': 'RFK-Rey',
   'https://zahirr-web.herokuapp.com': 'zahirgans',
-  'https://api.zeks.xyz': 'nyyxz-bot',
-  'https://api.lolhuman.xyz': 'ed6c4f2c72b6f92f7d201464',
-  'https://api.vhtear.com': 'sayahafiz',
-  'https://fxc7-api.herokuapp.com': 'uN8rsK4g',
-  'https://api.justaqul.xyz': '5kbUqdG00OXelFYx',
-  'http://zekais-api.herokuapp.com': 'grqgD6pU',
-  'https://bx-hunter.herokuapp.com': 'Ikyy69',
+  'https://api.zeks.me': 'apivinz',
+  'https://pencarikode.xyz': 'pais',
+  'https://leyscoders-api.herokuapp.com': 'dappakntlll'
 }
 
 lolkey = 'RFK-Rey'
 zekskey = 'apivinz'
 xteamkey = 'Dawnfrostkey'
 //xteam        MIMINETBOT
-namaig = 'GAK ADA :)'
-namagithub = 'GAK ADA :)'
-kasihcaption = `*Kalau udah dikasih, bilang apa?*`
-namakontak1 = 'ᴹᴿ𝙄𝙩𝙨𝙠𝙧𝙞 ×፝֟͜×'
-namakontak2 = '𝙆𝙧𝙞𝙯𝙮𝙣×͜×'
+namaig = 'mursid.st'
+namagithub = 'Botwa021'
+kasihcaption = `Instagram.com/mursid.st`
+namakontak1 = '𝙼𝚞𝚛𝚜𝚒𝚍 𝙱𝙾𝚃'
+namakontak2 = '𝙼𝚞𝚛𝚜𝚒𝚍'
 
-//kasihcaption = `Kalau udah dikasih, bilang apa?`
+//kasihcaption = `Instagram.com/mursid.st`
 
 // Sticker WM
-global.packname = 'ᴹᴿ𝙄𝙩𝙨𝙠𝙧𝙞 ×፝֟͜×' // ganti aja
-global.author = 'ᴹᴿ𝙄𝙩𝙨𝙠𝙧𝙞 ×፝֟͜×' // ganti aja
+global.packname = 'мυяѕι∂' // ganti aja
+global.author = 'ʙᴏᴛ' // ganti aja
 
 //yyy
-'𝙆𝙧𝙞𝙯𝙮𝙣×͜×' // Broadcast
-footer = '𝙆𝙧𝙞𝙯𝙮𝙣×͜×' // Broadcast
-footer = '\𝙆𝙧𝙞𝙯𝙮𝙣×͜×'
-namabot = '𝙆𝙧𝙞𝙯𝙮𝙣×͜×'
-namalu = 'ᴹᴿ𝙄𝙩𝙨𝙠𝙧𝙞 ×፝֟͜×'
+bc = 'мυяѕι∂' //мυяѕι∂ Broadcast
+footer = `\n© _*MursidBot*_`
+namabot = `WhatsApp Bot`
+namalu = 'MursidGanteng'
 
 
 // 
@@ -83,18 +78,12 @@ wait = '⏳𝙎𝙚𝙙𝙖𝙣𝙜 𝙙𝙞𝙥𝙧𝙤𝙨𝙚𝙨...'
 global.wait = '⏳𝙎𝙚𝙙𝙖𝙣𝙜 𝙙𝙞𝙥𝙧𝙤𝙨𝙚𝙨...'
 global.rpg = 'Fitur Rpg Dimatikan\nKetik *!enable* *rpg* untuk menggunakan fitur ini!\nKalo Mau main Disini aja\nhttps://chat.whatsapp.com/FnNAbem8o6r4pgLhSdO8Q9'
 global.nsfw = 'Fitur NSFW Dimatikan\nKetik *!enable* *nsfw* untuk menggunakan fitur ini!\n“Katakanlah kepada orang laki-laki yang beriman: Hendaklah mereka menahan pandanganya, dan memelihara kemaluannya; … Katakanlah kepada wanita yang beriman: Hendaklah mereka menahan pandangannya, dan kemaluannya, dan janganlah mereka Menampakkan perhiasannya, kecuali yang (biasa) nampak dari padany,” \n(TQS. Al-Nur [24]: 30-31).'
-global.eror = '❗𝙎𝙚𝙧𝙫𝙚𝙧 𝙀𝙧𝙧𝙤𝙧...'
+global.eror = '_*Server Error kak*_'
 
-global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
-global.watermark = '𝙆𝙧𝙞𝙯𝙮𝙣×͜× ' //change the watermark 
-global.image = 'https://telegra.ph/file/79a7809aa11ce604c129c.jpg' //change the image
-global.thumbfoto = 'https://telegra.ph/file/79a7809aa11ce604c129c.jpg'
+global.image = "https://telegra.ph/file/31701c03ffd465963a2cf.jpg"
 
-// image
-global.bank = 'https://telegra.ph/file/d5ddf4cc627bb0e6bc420.jpg'
-global.kandang = 'https://telegra.ph/file/67a6ee607d03a4e52757d.jpg'
-global.kolam = 'https://telegra.ph/file/5aa5dfa3394477e11fb18.jpg'
-global.thanks = 'https://telegra.ph/file/01917f7782b70de8f418d.jpg'
+// kalau mau ubah saja SC dari MursidXzy
+global.image = 'https://telegra.ph/file/31701c03ffd465963a2cf.jpg'//thumbnail
 
 // tingkat kesulitan, semakin tinggi semakin susah
 global.multiplier = 36 // The higher, The harder levelup

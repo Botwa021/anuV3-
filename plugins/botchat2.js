@@ -39,12 +39,10 @@ runtime = process.uptime()
 					}
 					//m.reply(teks)
 conn.sendMessage(m.chat, `${ucapan()}\n\n
-╦─╦╔╗╦─╔╗╔╗╔╦╗╔╗
-║║║╠─║─║─║║║║║╠─
-╚╩╝╚╝╚╝╚╝╚╝╩─╩╚╝
-\nBotnya ᴹᴿ𝙄𝙩𝙨𝙠𝙧𝙞 ×፝֟͜× disini, Ada yang bisa dibantu?\n`, 'conversation', {quoted: m, thumbnail: img2, contextInfo:{externalAdReply: {title: teks, body: `${run}`, sourceUrl: namagithub, thumbnail: img1}}})
+𝙒𝙀𝙇𝘾𝙊𝙈𝙀
+\nBotnya 𝘽𝙊𝙏𝘾𝘼𝙃𝙓 disini, Ada yang bisa saya bantu?\n`, 'conversation', {quoted: m, thumbnail: img2, contextInfo:{externalAdReply: {title: teks, body: `${run}`, sourceUrl: namagithub, thumbnail: img1}}})
 .trim(), footer, 'Pemilik Bot' : 'Menu', user.banned ? '#owner' : '#menu', m)}
-handler.customPrefix = /^(P|p|Hallo|halo|Halo|hallo|hi|helo|hai|hi|Hai|Helo|Hello|oy)$/i
+handler.customPrefix = /^(P|p|Hallo|halo|Halo|hallo|hi|helo|hai|hi|Hai|Helo|Hello|Woy|Bot|oy)$/i
 handler.command = new RegExp
 module.exports = handler
 function ucapan() {
@@ -54,13 +52,16 @@ function ucapan() {
         res = "Selamat pagi"
     }
     if (time > 10) {
-        res = "Selamat siang🌞"
+        res = "Selamat siang"
     }
     if (time >= 15) {
-        res = "Selamat sore🌝"
+        res = "Selamat sore"
     }
     if (time >= 18) {
-        res = "Selamat malam🌚"
+        res = "Selamat malam"
+    }
+    if (time >= 23) {
+        res = "Bobo kak udah malem"
     }
     return res
 }

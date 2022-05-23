@@ -42,8 +42,8 @@ ${'%npmdesc'}
 `,
 }
 let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
-    let bzz = fs.readFileSync('./vn/ara-nabila.mp3')
-    let bzz2 = fs.readFileSync('./vn/onichan.mp3')
+    let bzz = fs.readFileSync('./vn/anu.mp3')
+    let bzz2 = fs.readFileSync('./vn/hihi.mp3')
     let { anon, anticall, antispam, antitroli, backup, jadibot, groupOnly, nsfw } = global.db.data.settings[conn.user.jid]
     let totaljadibot = [...new Set([...global.conns.filter(conn => conn.user && conn.state !== 'close').map(conn => conn.user)])]
 
@@ -282,7 +282,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                         }, {
                             "rows": [{
                                 "title": `[🧾| Semua Perintah`,
-                                "description": "Memberikan Semua Fitur Bot",
+                                "description": "𝙈𝙚𝙢𝙗𝙚𝙧𝙞𝙠𝙖𝙣 𝙎𝙚𝙢𝙪𝙖𝙣𝙮𝙖 𝙁𝙞𝙩𝙪𝙧 𝘽𝙤𝙩",
                                 "rowId": ".? all"
                             }, {
                                 "title": "|🕋| Islam",
@@ -342,59 +342,59 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                                 "rowId": ".? premium"
                             }, {
                                 "title": "|🖥️| Internet",
-                                "description": "Cari Sesuatu Di Bot",
+                                "description": "𝘾𝙖𝙧𝙞 𝙎𝙚𝙨𝙪𝙖𝙩𝙪 𝘿𝙞 𝘽𝙤𝙩",
                                 "rowId": ".? internet"
                             }, {
                                 "title": "|🥷| Anonymous",
-                                "description": "Mainkan Anonymous Chat",
+                                "description": "𝙈𝙖𝙞𝙣𝙠𝙖𝙣 𝘼𝙣𝙤𝙣𝙮𝙢𝙤𝙪𝙨 𝘾𝙝𝙖𝙩 𝙏𝙖𝙥𝙞 𝙅𝙖𝙣𝙜𝙖𝙣 𝙎𝙥𝙖𝙢 𝙔𝙖𝙖",
                                 "rowId": ".? anonymous"
                             }, {
                                 "title": "|✒️| Nulis & Logo",
-                                "description": "Menu Nulis & Logo",
+                                "description": "𝙈𝙚𝙣𝙪 𝙉𝙪𝙡𝙞𝙨 & 𝙇𝙤𝙜𝙤",
                                 "rowId": ".? nulis"
                             }, {
                                 "title": "|📺| Downloader",
-                                "description": "Download Sesuatu Di Bot",
+                                "description": "𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙 𝙎𝙚𝙨𝙪𝙖𝙩𝙪 𝘿𝙞 𝘽𝙤𝙩",
                                 "rowId": ".? downloader"
                             }, {
                                 "title": "|🔧| Tools",
-                                "description": "Tools Yang Bisa di Gunakan Di Bot",
+                                "description": "𝙏𝙤𝙤𝙡𝙨 𝙔𝙖𝙣𝙜 𝘽𝙞𝙨𝙖 𝙙𝙞 𝙂𝙪𝙣𝙖𝙠𝙖𝙣 𝘿𝙞 𝘽𝙤𝙩",
                                 "rowId": ".? tools"
                             }, {
                                 "title": "|🎇| Fun",
-                                "description": "Menu Ceria",
+                                "description": "𝙈𝙚𝙣𝙪 𝘾𝙚𝙧𝙞𝙖",
                                 "rowId": ".? fun"
                             }, {
                                 "title": "|📂| Database",
-                                "description": "Simpan Sesuatu Di Bot",
+                                "description": "𝙎𝙞𝙢𝙥𝙖𝙣 𝙎𝙚𝙨𝙪𝙖𝙩𝙪 𝘿𝙞 𝘽𝙤𝙩",
                                 "rowId": ".? database"
                             }, {
                                 "title": "|📝| Vote & Absen",
-                                "description": "Menu Vote & Absen",
+                                "description": "𝙈𝙚𝙣𝙪 𝙑𝙤𝙩𝙚 & 𝘼𝙗𝙨𝙚𝙣",
                                 "rowId": ".? vote"
                             }, {
                                 "title": "|🎙️| Pengubah Suara",
-                                "description": "Ubah Suaramu",
+                                "description": "𝙐𝙗𝙖𝙝 𝙎𝙪𝙖𝙧𝙖𝙢𝙪",
                                 "rowId": ".? audio"
                             }, {
                                 "title": "|🤖| Jadi Bot",
-                                "description": "Jadi Bot",
+                                "description": "𝙅𝙖𝙙𝙞 𝘽𝙤𝙩",
                                 "rowId": ".? jadibot"
                             }, {
                                 "title": "|⛩️| Anime",
-                                "description": "Cari Anime Di Bot",
+                                "description": "𝘾𝙖𝙧𝙞 𝘼𝙣𝙞𝙢𝙚 𝘿𝙞 𝘽𝙤𝙩",
                                 "rowId": ".? anime"
                             }, {
                                 "title": "|ℹ️| Info",
-                                "description": "Info Tentang Bot",
+                                "description": "𝙄𝙣𝙛𝙤 𝙏𝙚𝙣𝙩𝙖𝙣𝙜 𝘽𝙤𝙩",
                                 "rowId": ".? info"
                             }, {
                                 "title": "|🌴|Tanpa Kategori",
-                                "description": "Menu Tanpa Kategori/Belum Update",
+                                "description": "𝙈𝙚𝙣𝙪 𝙏𝙖𝙣𝙥𝙖 𝙆𝙖𝙩𝙚𝙜𝙤𝙧𝙞/𝘽𝙚𝙡𝙪𝙢 𝙐𝙥𝙙𝙖𝙩𝙚",
                                 "rowId": ".? tanpakategori"
                             }, {
                                 "title": "|🧑‍💻| Owner",
-                                "description": "Menu Khusu Owner",
+                                "description": "𝙈𝙚𝙣𝙪 𝙆𝙝𝙪𝙨𝙪𝙨 𝙊𝙬𝙣𝙚𝙧",
                                 "rowId": ".? owner"
                             }],
                             "title": "⬡─────────❲ 𝙏𝙚𝙣𝙩𝙖𝙣𝙜 𝘽𝙤𝙩 𝘿𝙖𝙣 𝙇𝙖𝙞𝙣𝙣𝙮𝙖 ❳─────────⬡"

@@ -9,7 +9,7 @@ CFonts.say('Krizyn', {
   align: 'center',
   gradient: ['red', 'magenta']
 })
-CFonts.say(`'Follow Instagram @mhdfakri_'\nSubscribe Channel Hoken Beusz`, {
+CFonts.say(`'𝘽𝙊𝙏𝘾𝘼𝙃𝙓'\nhttp://instagram.com/Mursid.st`, {
   font: 'console',
   align: 'center',
   gradient: ['red', 'magenta']

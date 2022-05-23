@@ -1,6 +1,6 @@
 let fetch = require('node-fetch')
 let handler = async (m, { conn }) => {
-	conn.send3ButtonLoc(m.chat, await (await fetch(fla + 'sewa bot')).buffer(), `
+	conn.send3ButtonLoc(m.chat, await (await fetch(image + 'sewa bot')).buffer(), `
 ┌───『 𝙎𝙀𝙒𝘼 𝘽𝙊𝙏 』──⬣
 ⬣ 𝙇𝙄𝙎𝙏 𝙃𝘼𝙍𝙂𝘼 𝘿𝙄 𝘽𝘼𝙒𝘼𝙃 𝙔𝘼
 ╔═══════════════════

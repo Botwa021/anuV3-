@@ -267,15 +267,15 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                                 "rowId": ".rules"
                             }, {
                                 "title": "Info Mursid",
-                                "description": "Info Tentang Owner Bot",
+                                "description": "𝙄𝙣𝙛𝙤 𝙏𝙚𝙣𝙩𝙖𝙣𝙜 𝙊𝙬𝙣𝙚𝙧 𝘽𝙤𝙩",
                                 "rowId": ".infomursid"
                             }, {
                                 "title": "Donasi",
-                                "description": "Hasil donasi akan digunakan buat sewa atau beli RDP/VPS agar bot bisa berjalan 24 jam tanpa ada kendala",
+                                "description": "𝙃𝙖𝙨𝙞𝙡 𝙙𝙤𝙣𝙖𝙨𝙞 𝙖𝙠𝙖𝙣 𝙙𝙞𝙜𝙪𝙣𝙖𝙠𝙖𝙣 𝙗𝙪𝙖𝙩 𝙨𝙚𝙬𝙖 𝙖𝙩𝙖𝙪 𝙗𝙚𝙡𝙞 𝙍𝘿𝙋/𝙑𝙋𝙎 𝙖𝙜𝙖𝙧 𝙗𝙤𝙩 𝙗𝙞𝙨𝙖 𝙗𝙚𝙧𝙟𝙖𝙡𝙖𝙣 24 𝙟𝙖𝙢 𝙩𝙖𝙣𝙥𝙖 𝙖𝙙𝙖 𝙠𝙚𝙣𝙙𝙖𝙡𝙖",
                                 "rowId": ".donasi"
                             }, {
                                 "title": "Sewa bot - Premium",
-                                "description": "Untuk kamu yang ingin melihat daftar harga sewa dan premium.",
+                                "description": "𝙐𝙣𝙩𝙪𝙠 𝙠𝙖𝙢𝙪 𝙮𝙖𝙣𝙜 𝙞𝙣𝙜𝙞𝙣 𝙢𝙚𝙡𝙞𝙝𝙖𝙩 𝙙𝙖𝙛𝙩𝙖𝙧 𝙝𝙖𝙧𝙜𝙖 𝙨𝙚𝙬𝙖 𝙙𝙖𝙣 𝙥𝙧𝙚𝙢𝙞𝙪𝙢.",
                                 "rowId": ".sewabot"
                             }],
                             "title": "⬡────────────❲ 𝙎𝙚𝙢𝙪𝙖 𝙋𝙚𝙧𝙞𝙣𝙩𝙖𝙝 ❳────────────⬡"
@@ -416,7 +416,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                                 "description": "𝙏𝙚𝙧𝙞𝙢𝙖 𝙠𝙖𝙨𝙞𝙝 𝙗𝙖𝙣𝙮𝙖𝙠 𝙪𝙣𝙩𝙪𝙠 𝙪𝙨𝙚𝙧 𝙮𝙖𝙣𝙜 𝙩𝙚𝙡𝙖𝙝 𝙗𝙚𝙧𝙥𝙖𝙧𝙩𝙞𝙨𝙞𝙥𝙖𝙨𝙞 𝙙𝙖𝙡𝙖𝙢 𝙗𝙤𝙩",
                                 "rowId": ".tqto"
                             }],
-                            "title": "⬡────────────❲ Penutup ❳────────────⬡"
+                            "title": "⬡────────────❲ 𝙋𝙚𝙣𝙪𝙩𝙪𝙥 ❳────────────⬡"
                         }
                     ], "contextInfo":
                     {

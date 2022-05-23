@@ -569,16 +569,16 @@ Untuk mematikan fitur ini, ketik
 global.dfail = (type, m, conn) => {
 	let name = conn.getName(m.sender)
   let msg = {
-    rowner: '⚠️Emangnya lu *OWNER* tod!',
-    owner: '⚠️Emangnya lu *OWNER BOT* tod!',
-    mods: '⚠️Emangnya lu *Moderator* tod!',
-    premium: '⚠️Emangnya lu member *PREMIUM* tod!',
-    group: '⚠️*Emangnya ini di *GRUP* Tod!*',
-    private: '*Di pc aja yuk sayang!*',
-    admin: '⚠️Emangnya lu *ADMIN* grup ya tod!',
-    nsfw: 'cuma bisa diaktifkan sama dia @${global.kontak[0].split`@`[0]}',
-    botAdmin: '⚠️*Naikin dulu dong BOT nya,*\n*Masa iya bot di ewe gak di naikin pangkatnya*!🤪',
-   unreg: `Daftar Dulu dek biar bisa pakai fitur lain nya\n\ncaranya ketik:\n*#daftar nama.umur*\n\nContoh: #daftar ᴹᴿ𝙄𝙩𝙨𝙠𝙧𝙞 ×፝֟͜×.22`
+    rowner: '⚠️𝙋𝙚𝙧𝙞𝙣𝙩𝙖𝙝 𝙞𝙣𝙞 𝙝𝙖𝙣𝙮𝙖 𝙙𝙖𝙥𝙖𝙩 𝙙𝙞 𝙜𝙪𝙣𝙖𝙠𝙖𝙣 𝙤𝙬𝙣𝙚𝙧 𝙗𝙤𝙩',
+    owner: '⚠️𝙋𝙚𝙧𝙞𝙣𝙩𝙖𝙝 𝙞𝙣𝙞 𝙝𝙖𝙣𝙮𝙖 𝙙𝙖𝙥𝙖𝙩 𝙙𝙞 𝙜𝙪𝙣𝙖𝙠𝙖𝙣 𝙤𝙬𝙣𝙚𝙧 𝙗𝙤𝙩',
+    mods: '⚠️𝙋𝙚𝙧𝙞𝙣𝙩𝙖𝙝 𝙞𝙣𝙞 𝙝𝙖𝙣𝙮𝙖 𝙙𝙖𝙥𝙖𝙩 𝙙𝙞 𝙜𝙪𝙣𝙖𝙠𝙖𝙣 𝙤𝙬𝙣𝙚𝙧 𝙗𝙤𝙩',
+    premium: '𝙋𝙚𝙧𝙞𝙣𝙩𝙖𝙝 𝙞𝙣𝙞 𝙝𝙖𝙣𝙮𝙖 𝙪𝙣𝙩𝙪𝙠 𝙪𝙨𝙚𝙧 𝙥𝙧𝙚𝙢𝙞𝙪𝙢',
+    group: '𝙋𝙚𝙧𝙞𝙣𝙩𝙖𝙝 𝙞𝙣𝙞 𝙝𝙖𝙣𝙮𝙖 𝙙𝙖𝙥𝙖𝙩 𝙙𝙞𝙜𝙪𝙣𝙖𝙠𝙖𝙣 𝙙𝙞𝙜𝙧𝙪𝙥',
+    private: '𝙋𝙚𝙧𝙞𝙣𝙩𝙖𝙝 𝙞𝙣𝙞 𝙝𝙖𝙣𝙮𝙖 𝙙𝙖𝙥𝙖𝙩 𝙙𝙞𝙜𝙪𝙣𝙖𝙠𝙖𝙣 𝙙𝙞𝙘𝙝𝙖𝙩 𝙥𝙧𝙞𝙗𝙖𝙙𝙞 𝙗𝙤𝙩',
+    admin: '𝙋𝙚𝙧𝙞𝙣𝙩𝙖𝙝 𝙞𝙣𝙞 𝙝𝙖𝙣𝙮𝙖 𝙙𝙖𝙥𝙖𝙩 𝙙𝙞𝙜𝙪𝙣𝙖𝙠𝙖𝙣 𝙖𝙙𝙢𝙞𝙣 𝙜𝙧𝙪𝙥 ',
+    nsfw: '𝙋𝙚𝙧𝙞𝙣𝙩𝙖𝙝 𝙞𝙣𝙞 𝙝𝙖𝙣𝙮𝙖 𝙙𝙖𝙥𝙖𝙩 𝙙𝙞 𝙜𝙪𝙣𝙖𝙠𝙖𝙣 𝙤𝙬𝙣𝙚𝙧 𝙗𝙤𝙩 @${global.kontak[0].split`@`[0]}',
+    botAdmin: '𝘽𝙤𝙩 𝙗𝙪𝙠𝙖𝙣 𝙖𝙙𝙢𝙞𝙣 𝙜𝙧𝙪𝙥',
+   unreg: `𝘿𝙖𝙛𝙩𝙖𝙧 𝙙𝙪𝙡𝙪 𝙠𝙖𝙠 𝙪𝙣𝙩𝙪𝙠 𝙢𝙚𝙣𝙜𝙜𝙪𝙣𝙖𝙠𝙖𝙣 𝙛𝙞𝙩𝙪𝙧 𝙞𝙣𝙞\n\n𝙠𝙚𝙩𝙞𝙠:\n*#daftar nama.umur*\n\nContoh: #daftar 𝙈𝙪𝙧𝙨𝙞𝙙 𝙎.𝟭𝟴`
   }[type]
   if (msg) return m.reply(msg)
 }

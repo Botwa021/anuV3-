@@ -2,31 +2,28 @@ let fetch = require('node-fetch')
 let { MessageType } = require('@adiwajshing/baileys')
 let handler = async(m, { conn }) => {
     let kamisato = `
-╭═══ 〔 𝐋𝐈𝐒𝐓 𝐁𝐄𝐑𝐋𝐀𝐍𝐆𝐆𝐀𝐍𝐀𝐍 〕 ════
-├⬡ 𝟏 ᗷᑌᒪᗩᑎ
-├⬡ 𝟑 ᗷᑌᒪᗩᑎ
-├⬡ 𝟓 ᗷᑌᒪᗩᑎ
-├⬡ ᑭEᖇᗰᗩᑎEᑎ
-└═══════════════
+╭───『 𝙇𝙄𝙎𝙏 𝙎𝙀𝙒𝘼 𝘽𝙊𝙏 』──⬣
+│⬣ 1 Minggu
+│⬣ 2 Minggu
+│⬣ 2 Bulan
+│⬣ 3 Bulan
+╰────────────⬣
 𝗦𝗶𝗹𝗮𝗵𝗸𝗮𝗻 𝗸𝗹𝗶𝗸 𝗽𝗮𝗱𝗮 "𝗟𝗶𝘀𝘁 𝗛𝗮𝗿𝗴𝗮" 𝘂𝗻𝘁𝘂𝗸 𝗺𝗲𝗹𝗶𝗵𝗮𝘁 𝗹𝗶𝘀𝘁.
-╭═══════════════════════
-║╭──❉ 〔 𝐕𝐈𝐀 𝐌𝐎𝐁𝐈𝐋𝐄 〕 ❉──────
-║│➸ *DANA* : 081360482998
-║│➸ *PULSA*: 081360482998
-║│➸ *GOPAY*: BELUM PAKAI
-║╰─────────────────────
-╰═══════════════════════
+╭──『 𝙑𝙄𝘼 𝙈𝙊𝘽𝙄𝙇𝙀 』──⬣
+│⬣ 𝘿𝙖𝙣𝙖 : 088233832771
+│⬣ 𝙂𝙤𝙥𝙖𝙮: 088233832771
+╰────────────⬣
 `.trim()
     const button = {
         buttonText: 'List Harga',
         description: kamisato,
         sections:  [{title: "Silahkan di pilih", rows: [
-        {title: '𝟏 ᗷᑌᒪᗩᑎ', description: "Rp5.000\nSewa bot selama 1 bulan.", rowId:".owner"},
-        {title: '𝟑 ᗷᑌᒪᗩᑎ', description: "Rp10.000\nSewa bot selama 3 bulan.", rowId:".owner"},
-        {title: '𝟓 ᗷᑌᒪᗩᑎ', description: "Rp15.000\nSewa bot selama 5 bulan.", rowId:".owner"},
-        {title: 'PERMANEN', description: "Rp20.000\ntanpa batasan waktu.", rowId:".owner"},
-        {title: 'OᗯᑎEᖇ', description: "Chat owner nya jika ada perlu.", rowId:".owner"},
-        {title: 'ᖇᑌᒪES', description: "PERATURAN BOT", rowId:".rules"},
+        {title: '1 Minggu', description: "Rp10.000\nSewa bot selama 1 Minggu.", rowId:".owner"},
+        {title: '2 Minggu', description: "Rp20.000\nSewa bot selama 2 Minggu.", rowId:".owner"},
+        {title: '2 Bulan', description: "Rp30.000\nSewa bot selama 2 bulan.", rowId:".owner"},
+        {title: '3 Bulan', description: "Rp450.000\nSewa bot selama 3 bulan.", rowId:".owner"},
+        {title: '𝙊𝙬𝙣𝙚𝙧 𝘽𝙤𝙩', description: "Chat owner nya jika ada perlu.", rowId:".owner"},
+        {title: '𝙍𝙪𝙡𝙚𝙨 𝘽𝙤𝙩', description: "PERATURAN BOT", rowId:".rules"},
        ] }],
         listType: 1
        }

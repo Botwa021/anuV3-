@@ -5,12 +5,25 @@ BIG THANKS TO
 • Allah swt
 • My ortu
 • Nurutomo
+• Ariffb
+• BochilGaming(Istikmal)
+• Benniismael
 • Xteam
-• AlyaaXzy 
+• AlyaaXd
 • BOTCAHX
+• Amirul Dev
+• Syahrul/Lev Bot
+• RaselComel
+• Aniq
+• Vania
+• Hardianto
+• Agus
+• Maikeru
+• Mursid S
 • Zeks
 • Penyedia Layanan API
 • Orang-orang yang Berdonasi
+• All Creator Bot
 `.trim(), watermark, 'Back', '.menu')
 handler.help = ['Thanksto', 'tqto']
 handler.tags = ['main']

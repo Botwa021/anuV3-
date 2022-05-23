@@ -259,11 +259,11 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                         {
                             "rows": [{
                                 "title": "Status Bot",
-                                "description": "Status dan informasi Bot.",
+                                "description": "𝙎𝙩𝙖𝙩𝙪𝙨 𝙙𝙖𝙣 𝙞𝙣𝙛𝙤𝙧𝙢𝙖𝙨𝙞 𝘽𝙤𝙩",
                                 "rowId": ".botstatus"
                             }, {
                                 "title": "Rules",
-                                "description": "User yang bijak selalu mematuhi Rules.",
+                                "description": "𝙐𝙨𝙚𝙧 𝙮𝙖𝙣𝙜 𝙗𝙞𝙟𝙖𝙠 𝙨𝙚𝙡𝙖𝙡𝙪 𝙢𝙚𝙢𝙖𝙩𝙪𝙝𝙞 𝙍𝙪𝙡𝙚𝙨.",
                                 "rowId": ".rules"
                             }, {
                                 "title": "Info Mursid",
@@ -286,59 +286,59 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                                 "rowId": ".? all"
                             }, {
                                 "title": "|🕋| Islam",
-                                "description": "Menu Tentang Islam",
+                                "description": "𝙈𝙚𝙣𝙪 𝙏𝙚𝙣𝙩𝙖𝙣𝙜 𝙄𝙨𝙡𝙖𝙢",
                                 "rowId": ".? quran"
                             }, {
                                 "title": "|🏫| Edukasi",
-                                "description": "Menu Edukasi",
+                                "description": "𝙈𝙚𝙣𝙪 𝗘𝗱𝘂𝗸𝗮𝘀𝗶",
                                 "rowId": ".? edukasi"
                             }, {
                                 "title": "|📰| News",
-                                "description": "Menu Berita",
+                                "description": "𝙈𝙚𝙣𝙪 𝘽𝙚𝙧𝙞𝙩𝙖",
                                 "rowId": ".? News"
                             }, {
                                 "title": "|🎮| Game",
-                                "description": "Menu Game",
+                                "description": "𝙈𝙚𝙣𝙪 𝗚𝗮𝗺𝗲",
                                 "rowId": ".? game"
                             }, {
                                 "title": "|🗺️| Epic Rpg",
-                                "description": "Menu Game RPG",
+                                "description": "𝗠𝗲𝗻𝘂 𝗚𝗮𝗺𝗲 𝗥𝗣𝗚",
                                 "rowId": ".? rpg"
                             }, {
                                 "title": "|📈| XP",
-                                "description": "XP Dan Level",
+                                "description": "𝗫𝗣 𝗗𝗮𝗻 𝗟𝗲𝘃𝗲𝗹",
                                 "rowId": ".? xp"
                             }, {
                                 "title": "|🔞| NSFW",
-                                "description": "Menu Bokep",
+                                "description": "𝙈𝙚𝙣𝙪 𝘽𝙤𝙠𝙚𝙥/𝘿𝙞 𝙇𝙖𝙧𝙖𝙣𝙜 𝙆𝙚𝙧𝙖𝙨 𝘿𝙞 𝙂𝙪𝙣𝙖𝙠𝙖𝙣 𝙅𝙞𝙠𝙖 𝙐𝙨𝙚𝙧 𝙠𝙚𝙩𝙖𝙝𝙪𝙖𝙣 𝙈𝙚𝙣𝙜𝙜𝙪𝙣𝙖𝙠𝙖𝙣, 𝙐𝙨𝙚𝙧 𝙏𝙚𝙧𝙨𝙚𝙗𝙪𝙩 𝘼𝙠𝙖𝙣 𝙎𝙖𝙮𝙖 𝘽𝙖𝙣 𝙋𝙚𝙧𝙢𝙖𝙣𝙚𝙣",
                                 "rowId": ".? nsfw"
                             }, {
                                 "title": "|🖼️| Random Image",
-                                "description": "Menu Foto Random",
+                                "description": "𝙈𝙚𝙣𝙪 𝙁𝙤𝙩𝙤 𝙍𝙖𝙣𝙙𝙤𝙢",
                                 "rowId": ".? image"
                             }, {
                                 "title": "|🎇| Stiker",
-                                "description": "Menu Buat Stiker",
+                                "description": "𝙈𝙚𝙣𝙪 𝘽𝙪𝙖𝙩 𝙎𝙩𝙞𝙘𝙠𝙚𝙧 𝙎𝙚𝙨𝙪𝙠𝙖 𝙃𝙖𝙩𝙞",
                                 "rowId": ".? stiker"
                             }, {
                                 "title": "|🐚| Kerang Ajaib",
-                                "description": "Menurut Kerang ajaib....",
+                                "description": "𝙈𝙚𝙣𝙪𝙧𝙪𝙩 𝙆𝙚𝙧𝙖𝙣𝙜 𝘼𝙟𝙖𝙞𝙗",
                                 "rowId": ".? kerangajaib"
                             }, {
                                 "title": "|📑| Quotes",
-                                "description": "Menu Quotes",
+                                "description": "𝙈𝙚𝙣𝙪 𝙌𝙪𝙤𝙩𝙚𝙨",
                                 "rowId": ".? quotes"
                             }, {
                                 "title": "|🏛️| Admin",
-                                "description": "Menu Admin Group",
+                                "description": "𝙈𝙚𝙣𝙪 𝙐𝙣𝙩𝙪𝙠 𝘼𝙙𝙢𝙞𝙣 𝙂𝙧𝙪𝙥",
                                 "rowId": ".? admin"
                             }, {
                                 "title": "|🏢| Grup",
-                                "description": "Menu Group",
+                                "description": "𝙈𝙚𝙣𝙪 𝙂𝙧𝙪𝙥",
                                 "rowId": ".? grup"
                             }, {
                                 "title": "|🔝| Premium",
-                                "description": "Menu Untuk User Premium",
+                                "description": "𝙈𝙚𝙣𝙪 𝙐𝙣𝙩𝙪𝙠 𝙐𝙨𝙚𝙧 𝙋𝙧𝙚𝙢𝙞𝙪𝙢",
                                 "rowId": ".? premium"
                             }, {
                                 "title": "|🖥️| Internet",

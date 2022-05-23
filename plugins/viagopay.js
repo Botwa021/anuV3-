@@ -2,17 +2,17 @@ let handler = async (m, { conn }) => {
 	conn.reply(m.chat, `╠═〘 PEMBAYARAN 〙 ═
 ╠═ Untuk Pembayaran Via Gopay
 ╠➥ Ke nomer ini
-║➥ *TANYA KE OWNER*
+║➥ *088233832771*
 ║
 ╠═〘 Fitur 〙 ═
 ║
 ╠➥ *FITUR DOWNLOADER 500++
-║     YouTube, Twitter, 
-║     Tiktok, Instagram, dll.
-║    *FITUR STIKER*
+║    YouTube, Twitter, 
+║    Tiktok, Instagram, dll.
+║   *FITUR STIKER*
 ╠➥ *FITUR ADMIN*
-║    *KICK ORANG*
-║    *JADIIN ADMIN*
+║   *KICK ORANG*
+║   *JADIIN ADMIN*
 ╠➥ *FITUR ISLAM*
 ║   *QURAN*
 ║   *CEK JADWAL SHALAT*

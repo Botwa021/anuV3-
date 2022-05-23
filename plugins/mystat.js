@@ -9,7 +9,7 @@ let handler = async (m, { conn }) => {
 
 
     m.reply(`
-╭───◪ 〔  𝙎 𝙏 𝘼 𝙏 𝙐 𝙎  〕
+╭───◪ 〔  𝙎 𝙏 𝘼 𝙏 𝙐 𝙎  〕───◪
 ├֍ Aktif selama ${uptime}
 ├֍ Baterai ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}
 ├֍ *${groups.length}* Grup
@@ -20,7 +20,7 @@ let handler = async (m, { conn }) => {
 ├֍ *${Object.entries(global.DATABASE.data.chats).filter(chat => chat[1].isBanned).length}* Chat Terbanned
 ├֍ *${Object.entries(global.DATABASE.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
 ╰──────────❒
-╭───◪ 〔 𝙈𝙊𝘿𝙀 𝙊𝙉 - 𝙊𝙁𝙁〕
+╭───◪ 〔 𝙈𝙊𝘿𝙀 𝙊𝙉 - 𝙊𝙁𝙁 〕───◪
 ├֍ ${anon ? '✅Sudah Aktif' : '❌Tidak Aktif'} *Anon Chat*
 ├֍ ${anticall ? '✅Sudah Aktif' : '❌Tidak AKtif'} *Anti Call*
 ├֍ ${antispam ? '✅Sudah AKtif' : '❌Tidak Aktif'} *Anti Spam*

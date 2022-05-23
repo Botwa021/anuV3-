@@ -11,12 +11,8 @@ handler.all = async function (m) {
     if (new Date - user.pc < 9000000) return // setiap 1 jam sekali
     await this.sendButton(m.chat, `
 *${ucapan()}*
-───⬡ 〔 𝐁𝐎𝐓 𝐂𝐇𝐀𝐓 〕 ⬡────
-╭───────────────╮
-        My name 𝙆𝙧𝙞𝙯𝙮𝙣 ×͜× 
-        Salah satu Bot diwhatsapp
-╰───────────────╯
-${user.banned ? 'kamu dibanned' : 'Silahkan mematuhi Rules Bot\nDemi kenyamanan kita bersama'}
+
+${user.banned ? 'kamu dibanned' : 'I'm 𝘽𝙊𝙏𝘾𝘼𝙃𝙓 di sini ada yang bisa saya bantu?\nJika mau lihat menu tinggal ketik *#menu* atau ketik button di bawah'}
 `.trim(), footer, user.banned ? 'Pemilik Bot' : 'Menu', user.banned ? '#owner' : '#menu', m)
     user.pc = new Date * 1
 }
@@ -24,18 +20,21 @@ ${user.banned ? 'kamu dibanned' : 'Silahkan mematuhi Rules Bot\nDemi kenyamanan 
 module.exports = handler
 function ucapan() {
     const time = moment.tz('Asia/Jakarta').format('HH')
-    res = "Dinihari Ngab👻"
+    res = "Selamat dinihari"
     if (time >= 4) {
-        res = "Pagi Ngab🌤"
+        res = "Selamat pagi"
     }
     if (time > 10) {
-        res = "Siang Ngab🌞"
+        res = "Selamat siang"
     }
     if (time >= 15) {
-        res = "Sore Ngab🌝"
+        res = "Selamat sore"
     }
     if (time >= 18) {
-        res = "Malam Ngab🌚"
+        res = "Selamat malam"
+    }
+    if (time >= 23) {
+        res = "Udah malem kak bobo sana"
     }
     return res
 }

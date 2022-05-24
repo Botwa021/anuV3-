@@ -508,7 +508,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
         text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
 
         await conn.fakeReply(m.chat, 'Loading...', '0@s.whatsapp.net', 'BY MURSID (+6288233832771)', 'status@broadcast')
-        conn.send3ButtonImg(m.chat, await (await fetch(image)).buffer(), text.trim(), `*Runtime ${uptime}*\n*${week} ${date}*\n*Waktu ${time}*`, 'ρємιℓιк вσт', '.owner', 'ɪɴƒᴏ мυʀѕι∂', '.infomursid', 'ʀυℓєѕ', '.rules', m, { mentions: ['6288233832771@s.whatsapp.net'] })
+        conn.send3ButtonImg(m.chat, await (await fetch(image)).buffer(), text.trim(), `*Runtime ${uptime}*\n*${week} ${date}*`, 'ρємιℓιк вσт', '.owner', 'ɪɴƒᴏ мυʀѕι∂', '.infomursid', 'ʀυℓєѕ', '.rules', m, { mentions: ['6288233832771@s.whatsapp.net'] })
         await conn.sendFile(m.chat, bzz, 'bzz.opus', null, m, true)
         await conn.sendFile(m.chat, bzz2, 'bzz2.opus', null, m, true)
     } catch (e) {
